@@ -1,0 +1,14 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import {BrowserRouter} from 'react-router-dom';
+import {AuthProvider} from './state/AuthProvider';
+import {ToastProvider} from './components/ui';
+import App from './App';
+import {AgreementGate} from './components/agreements';
+import './styles/global.css';
+import './styles/print.css';
+import './styles/site.css';
+import './styles/admin-shortcut.css';
+import './styles/agreements-ai.css';
+import './styles/brand.css';
+ReactDOM.createRoot(document.getElementById('root')!).render(<React.StrictMode><BrowserRouter><AuthProvider><ToastProvider><AgreementGate><App/></AgreementGate></ToastProvider></AuthProvider></BrowserRouter></React.StrictMode>);

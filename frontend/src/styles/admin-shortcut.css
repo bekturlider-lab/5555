@@ -1,0 +1,10 @@
+.brand-icon{border:0;padding:0 2px 0 0;color:var(--ink);font-family:inherit;flex-shrink:0;cursor:pointer;touch-action:manipulation;user-select:none}
+.brand-icon:focus-visible{outline:3px solid #25262b;outline-offset:4px}
+.brand>a{color:inherit}
+.staff-registration-stats{grid-template-columns:repeat(3,minmax(0,1fr))}
+.registration-stat-primary{background:#fff9db;border-color:#f1e3a5}
+.registration-stat-primary>svg{color:#73601c}
+.registration-stat-primary>b{font-size:44px;color:#282a2f}
+.stat-card>small{color:#8993a2;font-size:10px;line-height:1.6}
+.staff-stat-note{color:#8791a0;font-size:11px;line-height:1.8;margin:-12px 0 27px}
+@media(max-width:650px){.staff-registration-stats{grid-template-columns:1fr}.staff-stat-note{font-size:10px;margin-top:-8px}.registration-stat-primary>b{font-size:39px}}

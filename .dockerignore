@@ -1,0 +1,16 @@
+.git
+.env
+.env.*
+.venv
+.private
+.pgdata
+**/node_modules
+**/__pycache__
+**/.pytest_cache
+**/*.egg-info
+frontend/dist
+backend/tests
+tests
+test-results
+playwright-report
+.openai

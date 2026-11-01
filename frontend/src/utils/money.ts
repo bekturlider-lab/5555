@@ -1,0 +1,4 @@
+export function money(value:number,compact=false){return new Intl.NumberFormat('ru-RU',{minimumFractionDigits:compact?0:2,maximumFractionDigits:2}).format(value/100);}
+export function minor(value:string){const normalized=value.replace(/\s/g,'').replace(',','.');if(!/^\d+(\.\d{1,2})?$/.test(normalized)) throw new Error('Введите сумму с точностью до двух знаков');const [a,b='']=normalized.split('.');const result=Number(a)*100+Number(b.padEnd(2,'0'));if(!Number.isSafeInteger(result)||result<100||result>100000000)throw new Error('Сумма должна быть от 1 до 1 000 000 сом');return result;}
+export const initials=(name:string)=>name.split(' ').slice(0,2).map(s=>s[0]).join('');
+export const date=(s:string,full=false)=>new Intl.DateTimeFormat('ru-RU',{day:'numeric',month:full?'long':'short',...(full?{year:'numeric',hour:'2-digit',minute:'2-digit'}:{}),timeZone:'Asia/Bishkek'}).format(new Date(s));

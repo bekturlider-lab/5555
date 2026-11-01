@@ -1,0 +1,7 @@
+{
+  "name": "b-bank-preview",
+  "private": true,
+  "scripts": {
+    "dev": "./.venv/bin/python backend/scripts/dev.py"
+  }
+}

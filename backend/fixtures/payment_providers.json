@@ -1,0 +1,44 @@
+[
+  {
+    "id": "mobile",
+    "name": "Мобильная связь",
+    "category": "Связь",
+    "color": "#dff0ff",
+    "icon": "smartphone"
+  },
+  {
+    "id": "internet",
+    "name": "Домашний интернет",
+    "category": "Интернет",
+    "color": "#ede5ff",
+    "icon": "wifi"
+  },
+  {
+    "id": "energy",
+    "name": "Электроэнергия",
+    "category": "Коммунальные",
+    "color": "#fff3c4",
+    "icon": "zap"
+  },
+  {
+    "id": "water",
+    "name": "Городская вода",
+    "category": "Коммунальные",
+    "color": "#dff5ef",
+    "icon": "droplets"
+  },
+  {
+    "id": "education",
+    "name": "Учёба и курсы",
+    "category": "Образование",
+    "color": "#ffe6dc",
+    "icon": "graduation-cap"
+  },
+  {
+    "id": "transport",
+    "name": "Городской транспорт",
+    "category": "Транспорт",
+    "color": "#e4eaff",
+    "icon": "bus"
+  }
+]
